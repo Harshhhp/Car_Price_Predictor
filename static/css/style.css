@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background-color: #121212 ;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.05);
+}
+
+.card-header {
+    background-color: #1e1e1e;
+    color: black;
+    border-bottom: 1px solid #333;
+}
+
+label {
+    font-weight: 600;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
