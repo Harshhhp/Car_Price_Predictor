@@ -1,74 +1,56 @@
-🚗 Car Price Predictor Web Application
+# 🎬 Car Price Predictor Web App
 
-A machine learning–powered Flask web app that predicts the price of a used car based on its specifications.
-The model analyzes features like company, model, year, fuel type, and kilometers driven to estimate a fair market value.
+A machine learning–powered web application built with Python, Flask, and Bootstrap.
+It predicts the selling price of a used car based on key attributes such as company, model, year, fuel type, and kilometers driven.
+🔗 **Live Demo:** [[movie-recommender-system-by-hp.streamlit.app](https://movie-recommender-system-by-hp.streamlit.app/)](https://web-production-8bc84.up.railway.app/)
 
-🔗 Live Demo: https://web-production-8bc84.up.railway.app/
+---
 
-📘 Project Overview
+## 📘 Project Overview
 
-This project uses Machine Learning and a Linear Regression model trained on a cleaned dataset of used cars.
-The web interface is built using Flask, making the app lightweight, fast, and easy to deploy.
+This project uses a Linear Regression model trained on a cleaned dataset of used cars.
+The web interface is built using Flask + Jinja Templates, with frontend styling done in Bootstrap.
 
-The app also includes:
--Dynamic car model filtering based on selected company
--Clean UI form to enter car details
--Real-time prediction via the trained ML model
--Deployment-ready structure for Railway 
+The application provides an interactive UI that dynamically filters car models based on selected company and returns an accurate predicted price instantly.
 
-⚙️ How It Works
+---
 
-Dataset Trained on a preprocessed car dataset containing:
-Company
+## ⚙️ How It Works
 
-Model
+1. Dataset: Cleaned dataset of used cars (company, model, year, fuel type, kms driven, selling price)
+2. Preprocessing steps:
+    -Handling missing values
+    -Feature selection
+    -One-hot encoding and label encoding
+3. Machine Learning:
+    -Model trained using Linear Regression
+    -Model saved using Pickle
+4. Prediction:
+    -User fills form in Flask web UI
+    -Backend processes input & returns predicted price
+---
 
-Year
+## 🧠 Tech Stack
 
-Fuel Type
+-**Python 3.9+**
+-**Flask**
+-**Bootstrap 4**
+-**Pandas**
+-**NumPy**
+-**Scikit-learn**
+-**Pickle**
+-**Gunicorn (for deployment)**
+-**Railway (hosting)**
 
-Kilometers Driven
+---
+🧾 License
 
-Selling Price
-
-ML Pipeline
-The model performs:
--Data cleaning and feature selection
-
--Label encoding + one-hot encoding
-
--Linear Regression training
-
--Model serialization using Pickle
-
--Web App
-
--Flask backend
-
--HTML + CSS for frontend
-
--Auto-updating model list based on car company
-
--Prediction result delivered instantly
-
-🧠 Tech Stack
-
-Python 3.9+
-
-Flask
-
-Scikit-learn
-
-Pandas
-
-NumPy
-
-Pickle
-
-Gunicorn (for deployment)
-
-Railway (hosting the live app)
+This project is open-source and available under the MIT License
+.
 
 ✨ Author
 
 Harsh Pandey
+**Connect with me on LinkedIn:** [Harsh Pandey](https://www.linkedin.com/in/harsh-pandey-891261354/)
+
+🖥️ Built with ❤️ using Python + Streamlit
