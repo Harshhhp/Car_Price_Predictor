@@ -1,4 +1,4 @@
-# 🎬 Car Price Predictor Web App
+# 🚗 Car Price Predictor Web App
 
 A machine learning–powered web application built with Python, Flask, and Bootstrap.
 It predicts the selling price of a used car based on key attributes such as company, model, year, fuel type, and kilometers driven.
