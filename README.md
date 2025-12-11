@@ -73,4 +73,4 @@ This project is open-source and available under the MIT License
 Harsh Pandey
 **Connect with me on LinkedIn:** [Harsh Pandey](https://www.linkedin.com/in/harsh-pandey-891261354/)
 
-🖥️ Built with ❤️ using Python + Streamlit
+🖥️ Built with ❤️ using Python + Flask
